@@ -1,12 +1,18 @@
-import React from 'react';
-import './App.css';
+import React, {useState} from 'react';
+import Form from "./Form";
 import { hello } from './utils/hello'
 
 hello();
 
 function App() {
   return (
-<h1>test</h1>
+<div className="container">
+        <h1 className="container__h1">EXCHANGE</h1>
+        <Form>
+          
+        </Form>
+        <footer className="footer">&copy; Adrian Kolano 2020. </footer>
+    </div>
 
   );
 }
