@@ -15,9 +15,7 @@ const Form = () => {
                         <input className="Js--form__labelInput" value="100" required type=" number" step="any" name="PLN"
                             minlength="2"/>
                     </label>
-                   
-                    
-                    <label className="form__label">
+                    <label className="form__label-select">
                         <span className="form__labelCaption">CHCĘ OTRZYMAĆ*:</span>
                         <select className="label__selectFinish Js--label__selectFinish">
                             <option value="EUR">EUR</option>
